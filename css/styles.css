@@ -1,0 +1,233 @@
+:root {
+  /*fonts*/
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /*text color*/
+  --main-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --white-text-color: #ffffff;
+  --footer-text-color: #f4f4fd;
+  --accent-text-color: #4d5ae5;
+  --focus-nav-color: #404bbf;
+
+  /*background color*/
+  --main-bgc-color: #ffffff;
+  --secondary-bgc-color: #2e2f42;
+  --grey-bgc-color: #f4f4fd;
+  --iris-bgc-btn: #4d5ae5;
+  --ocean-bgc-btnfocus: #404bbf;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--main-text-color);
+  background-color: var(--main-bgc-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+/*Navigation*/
+
+.logo,
+.logo-span {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-text-color);
+}
+
+.logo-span {
+  color: var(--secondary-text-color);
+}
+.link,
+.logo {
+  text-decoration: none;
+}
+.list {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--focus-nav-color);
+}
+.address {
+  font-style: normal;
+}
+
+.address-link,
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--focus-nav-color);
+}
+
+/*Main*/
+
+/*HERO*/
+
+.hero {
+  background-color: var(--secondary-bgc-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-text-color);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.btn-hero {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-text-color);
+  background-color: var(--iris-bgc-btn);
+  letter-spacing: 0.04em;
+  border: none;
+  cursor: pointer;
+}
+.btn-hero:hover,
+.btn-hero:focus {
+  background: var(--ocean-bgc-btnfocus);
+}
+
+.subtitle-section-one,
+.subtitle-section-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.text-section-one,
+.text-section-three,
+.text-portfolio-row {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.text-section-one {
+  color: var(--main-text-color);
+}
+
+.title-section-two,
+.title-section-three {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+}
+.section-three {
+  background-color: var(--grey-bgc-color);
+}
+
+.team {
+  background-color: var(--main-bgc-color);
+}
+
+.text-section-three {
+  color: var(--main-text-color);
+}
+/*Footer*/
+
+.footer {
+  background-color: var(--secondary-bgc-color);
+}
+.footer-span {
+  color: var(--footer-text-color);
+}
+
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--footer-text-color);
+}
+
+/*Portfolio*/
+
+/*BUTTONS*/
+
+.portfolio-btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-text-color);
+  border: none;
+  background-color: var(--grey-bgc-color);
+  cursor: pointer;
+}
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: var(--white-text-color);
+  background-color: var(--ocean-bgc-btnfocus);
+}
+/*.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--accent-text-color);
+  background-color: var(--grey-bgc-color);
+  border: none;
+  cursor: pointer;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: var(--footer-text-color);
+  background-color: var(--ocean-bgc-btnfocus);
+}*/
+
+/*Row*/
+.title-portfolio-row {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.text-portfolio-row {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
