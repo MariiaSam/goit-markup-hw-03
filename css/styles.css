@@ -36,6 +36,9 @@ a {
 li {
   text-decoration: none;
 }
+img {
+  display: block;
+}
 
 .visually-hidden {
   position: absolute;
@@ -50,10 +53,36 @@ li {
   overflow: hidden;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*HEADER*/
+
+.header {
+  border: 1px solid #e7e9fc;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
 /*Navigation*/
+.container-menu {
+  display: flex;
+  align-items: center;
+}
 
 .logo,
 .logo-span {
+  margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
@@ -74,6 +103,31 @@ li {
   text-decoration: none;
 }
 
+.container-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-studio {
+  padding-top: 24px;
+
+  padding-bottom: 24px;
+  margin-right: 40px;
+}
+
+.nav-portfolio {
+  padding-top: 24px;
+
+  padding-bottom: 24px;
+  margin-right: 40px;
+}
+
+.nav-contacts {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 0px;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -86,6 +140,13 @@ li {
 .nav-link:focus {
   color: var(--focus-nav-color);
 }
+
+.container-address {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .address {
   font-style: normal;
 }
