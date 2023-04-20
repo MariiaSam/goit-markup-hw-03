@@ -194,6 +194,7 @@ img {
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
+  /*margin-bottom: 120px;*/
 }
 
 .hero-title {
@@ -229,6 +230,31 @@ img {
 .btn-hero:hover,
 .btn-hero:focus {
   background: var(--ocean-bgc-btnfocus);
+}
+
+/*SECTION _1*/
+.container-section-one {
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  outline: 2px solid blue;
+}
+
+.list-section-one {
+  display: flex;
+  outline: 2px solid red;
+}
+
+.item-one-strategy,
+.item-one-punctuality,
+.item-one-diligence {
+  margin-right: 24px;
+  outline: 2px solid green;
+}
+
+.subtitle-section-one {
+  padding-bottom: 8px;
 }
 
 .subtitle-section-one,
