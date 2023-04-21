@@ -89,14 +89,19 @@ img {
   align-items: center;
   margin: 0;
 }
+
+.logo-nav{
+margin-right: 76px;
+ padding-top: 24px;
+  padding-bottom: 24px;}
+
 .logo-span {
   /*outline: 2px solid tomato;*/
 }
 
 .logo,
 .logo-span {
-  padding-top: 24px;
-  padding-bottom: 24px;
+ 
 
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -125,21 +130,27 @@ img {
   text-align: center;
   /*outline: 2px solid black;*/
   margin-right: 332px;
-  margin-left: 76px;
+
 }
+
+.item-studio,
+.item-portfolio{
+  margin-right: 40px;
+}
+.item-contacts{
+margin-right: 0;}
+
 
 .nav-studio {
   padding-top: 24px;
-
   padding-bottom: 24px;
-  margin-right: 40px;
+  /*margin-right: 40px;*/
 }
 
 .nav-portfolio {
   padding-top: 24px;
-
   padding-bottom: 24px;
-  margin-right: 40px;
+ /*margin-right: 40px;*/
 }
 
 .nav-contacts {
@@ -189,13 +200,17 @@ img {
 
 /*HERO*/
 
+
+
 .hero {
   background-color: var(--secondary-bgc-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .container-hero {
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+ /* padding-top: 188px;
+  padding-bottom: 188px;*/
   /*margin-bottom: 120px;*/
 }
 
@@ -204,7 +219,7 @@ img {
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
-  width: 496px;
+  max-width: 496px;
 
   font-weight: 700;
   font-size: 56px;
@@ -214,9 +229,14 @@ img {
   letter-spacing: 0.02em;
 }
 
+.btn-st{ display: block;
+  min-width: 169px;
+height: 56px;
+}
+
 .btn-hero {
-  display: inline-block;
-  padding: 16px 32px;
+ 
+  /*padding: 16px 32px;*/
 
   font-family: inherit;
   font-weight: 500;
