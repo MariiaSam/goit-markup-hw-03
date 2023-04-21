@@ -100,8 +100,6 @@ margin-right: 76px;
 
 .logo,
 .logo-span {
- 
-
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
@@ -129,32 +127,15 @@ margin-right: 76px;
   text-align: center;
   /*outline: 2px solid black;*/
   margin-right: 332px;
-
 }
 
 .item-nav{
   margin-right: 40px;
 }
+
 .item-contacts{
 margin-right: 0;}
 
-
-/*.nav-studio {
-  padding-top: 24px;
-  padding-bottom: 24px;
-
-}
-
-.nav-portfolio {
-  padding-top: 24px;
-  padding-bottom: 24px;
-
-}
-
-.nav-contacts {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}*/
 
 .nav-link {
   padding-top: 24px;
@@ -272,8 +253,7 @@ margin: 0 auto;
 .container-section-one {
   display: flex;
   align-items: center;
-  /*padding-top: 120px;
-  padding-bottom: 120px;*/
+  
   /* outline: 2px solid blue;*/
 }
 
@@ -282,13 +262,11 @@ margin: 0 auto;
   /*outline: 2px solid red;*/
 }
 
-.item-section-one {
+.list-section-one {
   width: calc(100% - 72px)/4;
 }
 
-.item-one-strategy,
-.item-one-punctuality,
-.item-one-diligence {
+.item-section-one{
   margin-right: 24px;
   /* /*outline: 2px solid green;* */
 }
@@ -416,6 +394,11 @@ margin: 0 auto;
 
 /*Portfolio*/
 
+
+.section-btn{
+padding-top: 96px;
+padding-bottom: 120px;
+}
 /*BUTTONS*/
 
 .btn-container {
@@ -425,6 +408,7 @@ margin: 0 auto;
 .btn-list {
   display: flex;
   justify-content: center;
+  gap: 24px;
   margin-bottom: 72px;
 }
 
