@@ -80,8 +80,7 @@ img {
 .container-header {
   display: flex;
   align-items: center;
-  /*padding-left: 15px;
-  padding-right: 15px;*/
+
 }
 /*Navigation*/
 .container-menu {
@@ -229,19 +228,19 @@ margin-right: 0;}
   letter-spacing: 0.02em;
 }
 
-.btn-st{ 
+/*.btn-st{ 
   display: block;
   min-width: 169px;
 height: 56px;
 margin: 0 auto;
 
-}
+}*/
 
 .btn-hero {
- /*display: block;
+  display: block;
   min-width: 169px;
 height: 56px;
-margin: 0 auto;*/
+margin: 0 auto;
 
   padding: 16px 32px;
 
