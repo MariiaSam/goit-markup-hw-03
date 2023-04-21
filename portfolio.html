@@ -22,30 +22,39 @@
   <!--Portfolio-->
   <body>
     <!--Header-->
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="container-header container">
         <!-- Navigation-->
-        <nav class="list">
-          <a class="logo link" href="./index.html"
-            >Web<span class="logo logo-span">Studio</span></a
-          >
-          <ul class="list">
-            <li><a class="nav-link link" href="./index.html">Studio</a></li>
+        <nav class="container-menu list">
+          <div class="logo-span">
+            <a class="logo link" href="./index.html"
+              >Web<span class="logo logo-span">Studio</span></a
+            >
+          </div>
+          <ul class="container-nav list">
             <li>
-              <a class="nav-link link" href="./portfolio.html">Portfolio</a>
+              <a class="nav-link nav-studio link" href="./index.html">Studio</a>
             </li>
-            <li><a class="nav-link link" href="">Contacts</a></li>
+            <li>
+              <a class="nav-link nav-portfolio link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="nav-link nav-contacts link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
+
         <address class="address">
-          <ul class="list">
+          <ul class="container-address list">
             <li>
               <a class="address-link link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="address-link link" href="tel:+110001111111"
+              <a class="address-link address-tel link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -57,25 +66,31 @@
     <main>
       <!--BUTTONS-->
       <section>
-        <div class="container">
+        <div class="btn-container container">
           <h1 class="visually-hidden">buttons</h1>
           <ul class="list">
-            <li>
-              <button class="portfolio-btn" type="button">All</button>
-            </li>
-            <li>
-              <button class="portfolio-btn" type="button">Web Site</button>
-            </li>
-            <li><button class="portfolio-btn" type="button">App</button></li>
-            <li><button class="portfolio-btn" type="button">Design</button></li>
-            <li>
-              <button class="portfolio-btn" type="button">Marketing</button>
-            </li>
+            <div class="btn-list">
+              <li>
+                <button class="portfolio-btn" type="button">All</button>
+              </li>
+              <li>
+                <button class="portfolio-btn" type="button">Web Site</button>
+              </li>
+              <li><button class="portfolio-btn" type="button">App</button></li>
+              <li>
+                <button class="portfolio-btn" type="button">Design</button>
+              </li>
+              <li>
+                <button class="last-portfolio-btn portfolio-btn" type="button">
+                  Marketing
+                </button>
+              </li>
+            </div>
           </ul>
           <!--Row-->
-          <ul class="list">
-            <li>
-              <a class="link" href="">
+          <ul class="row-list list">
+            <li class="row-item">
+              <a class="row-link link" href="">
                 <img
                   src="./images/portfolio/row/banking.jpg"
                   alt="banking app interface concept"
@@ -88,7 +103,7 @@
                 <p class="text-portfolio-row">App</p>
               </a>
             </li>
-            <li>
+            <li class="row-item">
               <a class="link" href=""
                 ><img
                   src="./images/portfolio/row/cash.jpg"
@@ -100,7 +115,7 @@
                 <p class="text-portfolio-row">Marketing</p></a
               >
             </li>
-            <li>
+            <li class="row-item">
               <a class="link" href="">
                 <img
                   src="./images/portfolio/row/meditation.jpg"
@@ -112,7 +127,7 @@
                 <p class="text-portfolio-row">App</p>
               </a>
             </li>
-            <li>
+            <li class="row-item">
               <a class="link" href="">
                 <img
                   src="./images/portfolio/row/taxi.jpg"
@@ -124,7 +139,7 @@
                 <p class="text-portfolio-row">Marketing</p></a
               >
             </li>
-            <li>
+            <li class="row-item">
               <a class="link" href="">
                 <img
                   src="./images/portfolio/row/screen.jpg"
@@ -136,7 +151,7 @@
                 <p class="text-portfolio-row">Design</p></a
               >
             </li>
-            <li>
+            <li class="row-item">
               <a class="link" href="">
                 <img
                   src="./images/portfolio/row/online.jpg"
@@ -148,7 +163,7 @@
                 <p class="text-portfolio-row">Marketing</p></a
               >
             </li>
-            <li>
+            <li class="row-item">
               <a class="link" href="">
                 <img
                   src="./images/portfolio/row/instagram.jpg"
@@ -160,7 +175,7 @@
                 <p class="text-portfolio-row">Design</p></a
               >
             </li>
-            <li>
+            <li class="row-item">
               <a class="link" href="">
                 <img
                   src="./images/portfolio/row/organic.jpg"
@@ -172,7 +187,7 @@
                 <p class="text-portfolio-row">Web Site</p></a
               >
             </li>
-            <li>
+            <li class="row-item">
               <a class="link" href="">
                 <img
                   src="./images/portfolio/row/fresh.jpg"
@@ -190,10 +205,12 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-      <div class="container">
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo logo-span footer-span">Studio</span></a
-        >
+      <div class="footer-container container">
+        <div class="footer-logo">
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo logo-span footer-span">Studio</span></a
+          >
+        </div>
         <p class="text-footer">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
