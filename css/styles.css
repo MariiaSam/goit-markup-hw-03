@@ -282,6 +282,10 @@ margin: 0 auto;
   /*outline: 2px solid red;*/
 }
 
+.item-section-one {
+  width: calc(100% - 72px)/4;
+}
+
 .item-one-strategy,
 .item-one-punctuality,
 .item-one-diligence {
@@ -290,7 +294,7 @@ margin: 0 auto;
 }
 
 .subtitle-section-one {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .subtitle-section-one,
