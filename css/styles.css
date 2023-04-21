@@ -94,9 +94,9 @@ margin-right: 76px;
  padding-top: 24px;
   padding-bottom: 24px;}
 
-.logo-span {
-  /*outline: 2px solid tomato;*/
-}
+/*.logo-span {
+  /*outline: 2px solid tomato;}*/
+
 
 .logo,
 .logo-span {
@@ -140,24 +140,27 @@ margin-right: 76px;
 margin-right: 0;}
 
 
-.nav-studio {
+/*.nav-studio {
   padding-top: 24px;
   padding-bottom: 24px;
-  /*margin-right: 40px;*/
+
 }
 
 .nav-portfolio {
   padding-top: 24px;
   padding-bottom: 24px;
- /*margin-right: 40px;*/
+
 }
 
 .nav-contacts {
   padding-top: 24px;
   padding-bottom: 24px;
-}
+}*/
 
 .nav-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
