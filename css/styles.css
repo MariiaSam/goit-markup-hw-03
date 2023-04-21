@@ -262,11 +262,17 @@ margin: 0 auto;*/
 }
 
 /*SECTION _1*/
+
+.section-one{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .container-section-one {
   display: flex;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 120px;
+  padding-bottom: 120px;*/
   /* outline: 2px solid blue;*/
 }
 
