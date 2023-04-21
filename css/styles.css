@@ -90,7 +90,7 @@ img {
   margin: 0;
 }
 .logo-span {
-  outline: 2px solid tomato;
+  /*outline: 2px solid tomato;*/
 }
 
 .logo,
@@ -169,7 +169,7 @@ img {
 
 .address {
   font-style: normal;
-  outline: 2px solid tomato;
+  /*outline: 2px solid tomato;*/
 }
 
 .address-link,
@@ -240,19 +240,19 @@ img {
   align-items: center;
   padding-top: 120px;
   padding-bottom: 120px;
-  outline: 2px solid blue;
+  /* outline: 2px solid blue;*/
 }
 
 .list-section-one {
   display: flex;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
 }
 
 .item-one-strategy,
 .item-one-punctuality,
 .item-one-diligence {
   margin-right: 24px;
-  outline: 2px solid green;
+  /* /*outline: 2px solid green;* */
 }
 
 .subtitle-section-one {
@@ -294,13 +294,13 @@ img {
 
 .title-section-two {
   margin-bottom: 72px;
-  outline: 2px solid green;
+  /*line: 2px solid green;*/
 }
 
 .list-section-two {
   display: flex;
   gap: 24px;
-  outline: 2px solid orange;
+  /*outline: 2px solid orange;*/
   padding-bottom: 120px;
 }
 
@@ -312,7 +312,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 72px;
-  outline: 2px solid skyblue;
+  /*outline: 2px solid skyblue;*/
 }
 
 .list-section-three {
@@ -330,7 +330,7 @@ img {
 }
 
 .team {
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
   background-color: var(--main-bgc-color);
 }
 .img-team {
