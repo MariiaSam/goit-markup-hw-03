@@ -33,9 +33,8 @@ p,
 h1,
 h2,
 h3 {
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-left: 0;
+ margin: 0;
+  padding: 0;
 }
 
 .list {
@@ -68,13 +67,14 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
+  margin: auto;
   margin-right: auto;
 }
 /*HEADER*/
 
 .header {
   border: 1px solid #e7e9fc;
+  outline: 2px solid blue;
 }
 
 .container-header {
@@ -87,6 +87,7 @@ img {
   display: flex;
   align-items: center;
   margin: 0;
+  outline: 2px solid green;
 }
 
 .logo-nav{
@@ -125,8 +126,8 @@ margin-right: 76px;
   display: flex;
   align-items: center;
   text-align: center;
-  /*outline: 2px solid black;*/
-  margin-right: 332px;
+  outline: 2px solid black;
+  /*margin-right: 332px;*/
 }
 
 .item-nav{
@@ -154,17 +155,23 @@ margin-right: 76px;
   color: var(--focus-nav-color);
 }
 
+
+.address {
+  display: flex;
+  align-items: center;
+  margin: auto;
+ 
+  font-style: normal;
+  outline: 2px solid tomato;
+}
+
 .container-address {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-right: 0;
 }
 
-.address {
-  font-style: normal;
-  /*outline: 2px solid tomato;*/
-}
+
 
 .address-link,
 .address-link {
