@@ -133,8 +133,9 @@ margin-right: 76px;
   margin-right: 40px;
 }
 
-.item-contacts{
-margin-right: 0;}
+.item-nav:last-child {
+  margin-bottom: 0;
+}
 
 
 .nav-link {
@@ -262,15 +263,13 @@ margin: 0 auto;
   /*outline: 2px solid red;*/
 }
 
-.list-section-one {
-  width: calc(100% - 72px)/4;
-}
-
-.item-section-one{
-  margin-right: 24px;
+.list-section-one{
+  gap: 24px;
   /* /*outline: 2px solid green;* */
 }
-
+.item-section-one {
+  width: calc(100% - 72px)/4;
+}
 .subtitle-section-one {
   margin-bottom: 8px;
 }
@@ -324,7 +323,7 @@ margin: 0 auto;
 
 .title-section-three {
   width: 1158px;
-  padding-top: 120px;
+  padding-bottom: 120px;
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 72px;
