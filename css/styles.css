@@ -126,8 +126,9 @@ margin-right: 76px;
   display: flex;
   align-items: center;
   text-align: center;
+
   outline: 2px solid black;
-  /*margin-right: 332px;*/
+  margin-right: 332px;
 }
 
 .item-nav{
@@ -135,7 +136,7 @@ margin-right: 76px;
 }
 
 .item-nav:last-child {
-  margin-bottom: 0;
+  margin-right: 0;
 }
 
 
