@@ -460,7 +460,7 @@ padding-bottom: 120px;
   letter-spacing: 0.04em;
   color: var(--accent-text-color);
   background-color: var(--grey-bgc-color);
-  border: 1px solid var(--secondary-bgc-color);
+  border: 1px solid var(--portf-bordercolor);
   cursor: pointer;
   border-radius: 4px;
 }
@@ -514,7 +514,7 @@ border-top: none;
 
   margin-bottom: 8px;
   margin-left: 16px;
-  
+
 
   font-weight: 500;
   font-size: 20px;
