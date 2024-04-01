@@ -198,6 +198,7 @@ img {
 
 .hero {
   background-color: var(--secondary-bgc-color);
+  
   padding-top: 188px;
   padding-bottom: 188px;
 }
